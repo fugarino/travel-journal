@@ -38,6 +38,8 @@ body {
 
 .content {
   margin: 20px 38px;
+  overflow-y: scroll;
+  max-height: 600px;
 }
 
 .card {
@@ -81,4 +83,21 @@ body {
   text-decoration: underline;
   font-size: 10px;
   margin-left: 10px;
+}
+
+.card--title {
+  font-size: 25px;
+  margin-top: 5px;
+}
+
+.card--date {
+  font-size: 10px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.card--description {
+  font-size: 10px;
+  line-height: 15px;
+  margin-top: 7px;
 }

@@ -7,6 +7,7 @@ export default function Content() {
       <Card />
       <Card />
       <Card />
+      <Card />
     </section>
   );
 }
